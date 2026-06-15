@@ -12,7 +12,9 @@
       "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution",
       "keywords": ["guidelines", "best-practices", "coding", "karpathy"],
       "category": "workflow",
-      "installedAt": "2026-06-15T06:15:32Z"
+      "installedAt": "2026-06-15T06:15:32Z",
+      "active": true,
+      "activeSkills": ["karpathy-guidelines"]
     }
   ]
 }
