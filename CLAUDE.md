@@ -66,3 +66,19 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 <!-- plugin:karpathy-skills:end -->
+
+### last30days-skill@last30days
+Source: `mvanhorn/last30days-skill`
+
+<!-- plugin:last30days:start -->
+Use the `/last30days` skill to research any topic across social platforms ranked by real engagement signals, not editors.
+
+**Sources searched:** Reddit (with upvoted comments), X/Twitter, YouTube (full transcripts), TikTok, Instagram Reels, Hacker News, Polymarket (prediction markets with real money), GitHub, Threads, Bluesky, Brave/Perplexity web search.
+
+**How it works:**
+- Resolves relevant handles, subreddits, and hashtags before searching
+- Merges identical stories from multiple platforms into single clusters
+- Ranks by actual engagement: upvotes, view counts, market odds
+- Synthesizes with inline citations and community "Best Takes"
+- Output: prose paragraphs with `[name](url)` inline links, emoji-tree footer
+<!-- plugin:last30days:end -->

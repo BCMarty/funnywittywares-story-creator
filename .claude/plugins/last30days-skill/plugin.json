@@ -1,0 +1,12 @@
+{
+  "name": "last30days-skill",
+  "id": "last30days",
+  "description": "Research any topic across Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and 5+ more sources. AI agent scores by upvotes, likes, and real money - not editors.",
+  "version": "3.8.0",
+  "author": {
+    "name": "mvanhorn"
+  },
+  "license": "MIT",
+  "keywords": ["research", "social", "reddit", "youtube", "productivity"],
+  "skills": ["./skills/last30days"]
+}
