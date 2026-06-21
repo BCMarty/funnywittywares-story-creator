@@ -82,3 +82,22 @@ Use the `/last30days` skill to research any topic across social platforms ranked
 - Synthesizes with inline citations and community "Best Takes"
 - Output: prose paragraphs with `[name](url)` inline links, emoji-tree footer
 <!-- plugin:last30days:end -->
+
+### brand-voice@brand-voice
+Source: `anthropics/knowledge-work-plugins` → `partner-built/brand-voice`
+
+<!-- plugin:brand-voice:start -->
+Enforce FunnyWittyWares brand voice on all generated content. Guidelines live in `.claude/brand-voice-guidelines.md`.
+
+**Commands:**
+- `/brand-voice:enforce-voice` — apply brand guidelines to any content task
+- `/brand-voice:generate-guidelines` — generate guidelines from existing brand materials
+- `/brand-voice:discover-brand` — discover brand signals across connected data sources
+
+**Guideline loading order:**
+1. Session context (if guidelines were generated earlier this session)
+2. `.claude/brand-voice-guidelines.md` (project file — already populated for FunnyWittyWares)
+3. Prompt user if neither source exists
+
+**When enforcing:** apply voice constants (wit, punchy, no corporate-speak), flex tone for US vs UK, explain brand decisions in output, and flag open questions rather than guessing.
+<!-- plugin:brand-voice:end -->

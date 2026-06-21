@@ -30,6 +30,22 @@
       "installedAt": "2026-06-15T06:19:56Z",
       "active": true,
       "activeSkills": ["last30days"]
+    },
+    {
+      "name": "brand-voice",
+      "id": "brand-voice",
+      "source": "anthropics/knowledge-work-plugins",
+      "path": "partner-built/brand-voice",
+      "version": "1.0.0",
+      "author": {
+        "name": "anthropics"
+      },
+      "description": "Enforces brand voice on all generated content. Loads guidelines from .claude/brand-voice-guidelines.md and applies tone, terminology, and personality constants to every piece of AI-generated copy.",
+      "keywords": ["brand", "voice", "content", "marketing", "copy"],
+      "category": "knowledge-work",
+      "installedAt": "2026-06-15T06:19:56Z",
+      "active": true,
+      "activeSkills": ["brand-voice-enforcement", "discover-brand", "guideline-generation"]
     }
   ]
 }

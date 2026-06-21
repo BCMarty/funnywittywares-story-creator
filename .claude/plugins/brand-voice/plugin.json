@@ -1,0 +1,21 @@
+{
+  "name": "brand-voice",
+  "description": "Enforces brand voice on all generated content — emails, social posts, pitch decks, Slack messages. Loads guidelines from .claude/brand-voice-guidelines.md.",
+  "version": "1.0.0",
+  "author": {
+    "name": "anthropics"
+  },
+  "license": "MIT",
+  "keywords": ["brand", "voice", "content", "marketing", "copy"],
+  "commands": [
+    "/brand-voice:discover-brand",
+    "/brand-voice:generate-guidelines",
+    "/brand-voice:enforce-voice"
+  ],
+  "skills": [
+    "./skills/brand-voice-enforcement",
+    "./skills/discover-brand",
+    "./skills/guideline-generation"
+  ],
+  "settings": ".claude/brand-voice-guidelines.md"
+}
