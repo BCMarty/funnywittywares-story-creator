@@ -16,5 +16,21 @@
       "active": true,
       "activeSkills": ["karpathy-guidelines"]
     }
+  ],
+  "marketplace": [
+    {
+      "name": "last30days-skill",
+      "id": "last30days",
+      "source": "mvanhorn/last30days-skill",
+      "version": "3.8.0",
+      "author": {
+        "name": "mvanhorn"
+      },
+      "description": "Research any topic across Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and 5+ more sources. AI agent scores by upvotes, likes, and real money - not editors.",
+      "keywords": ["research", "social", "reddit", "youtube", "productivity"],
+      "category": "productivity",
+      "addedAt": "2026-06-15T06:19:56Z",
+      "active": false
+    }
   ]
 }
